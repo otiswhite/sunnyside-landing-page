@@ -1,0 +1,50 @@
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+  width: 100%;
+
+  background-color: lighten($color-dark-moderate-cyan, 10%);
+
+  &__logo {
+    
+    .logo {
+      fill: $color-dark-desaturated-cyan;
+    }
+  }
+
+  &__links {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    color: $color-dark-desaturated-cyan;
+    
+    a {
+      margin: 0 2rem;
+
+      &:hover {
+        color: $color-white;
+        transition: color 100ms ease-in-out;
+      }
+
+      @media (max-width: 450px){
+        margin: 0 1rem;
+      }
+      @media (max-width: 400px){
+        margin: 0 0.5rem;
+      }
+    }
+  }
+
+  &__socia {
+
+    a {
+      margin: 0 0.5rem;
+    }
+
+    .white-hover:hover {
+      fill: $color-white;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+/* config */
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,400;1,600&family=Fraunces:wght@700;900&display=swap');
+$font-stack: Arial, Helvetica, sans-serif;
+$font-barlow: 'Barlow', sans-serif;
+$font-fraunces: 'Fraunces', serif;
+
+// colors
+// primary
+$color-soft-red: hsl(7, 99%, 70%);
+$color-yellow: hsl(51, 100%, 49%);
+$color-blue: hsl(200, 100%, 62%);
+$color-dark-desaturated-cyan: hsl(167, 40%, 24%); // graphic design text
+$color-dark-desaturated-cyan-b: hsl(167, 80%, 24%);
+$color-dark-blue: hsl(198, 62%, 26%); // photography text
+$color-dark-moderate-cyan: hsl(168, 34%, 41%); // footer
+// neutral
+$color-very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$color-very-dark-grayish-blue: hsl(213, 9%, 39%);
+$color-dark-grayish-blue: hsl(232, 10%, 55%);
+$color-grayish-blue: hsl(210, 4%, 67%);
+$color-white: hsl(0, 0%, 100%);
+$color-black: hsl(0, 0%, 0%);
+
+// reset and defaults
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a,
+ul,
+ol {
+  text-decoration: none;
+  color: unset;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  font-family: $font-stack;
+  font-size: 18px;
+}
+
+
